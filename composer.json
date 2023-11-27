@@ -1,0 +1,28 @@
+{
+    "name": "michelmelo/laravel-package-generator",
+    "description": "Laravel Package Generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michel Melo",
+            "email": "eu@michelmelo.pt"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MichelMelo\\LaravelPackageGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MichelMelo\\LaravelPackageGenerator\\Providers\\PackageGeneratorServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "dev-master"
+    }
+}

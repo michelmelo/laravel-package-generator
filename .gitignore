@@ -1,0 +1,9 @@
+# Specify filepatterns you want git to ignore.
+.vscode
+.idea/
+*.zip
+.DS_Store
+.vs/
+.php-cs-fixer.cache
+vendor
+.DS_Store
